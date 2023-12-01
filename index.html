@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Playlist Player</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Spotify Playlist Player</h1>
+    <label for="playlistId">Enter Spotify Playlist ID:</label>
+    <input type="text" id="playlistId" placeholder="e.g., 5slzCi7x5BVRc8EaaluQso">
+    <button onclick="loadPlaylist()">Load Playlist</button>
+    <div id="playlistContainer"></div>
+    <div id="miniPlayer"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
